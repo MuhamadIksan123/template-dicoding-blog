@@ -1,0 +1,19 @@
+/* minimal layar ukuran besar */
+@media screen and (min-width: 1000px) {
+  .headline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* minimal layar ukuran besar */
+/* @media screen and (min-width: 1200px) {
+    body {
+      width: 1200px;
+      margin: auto;
+    }
+  } */
